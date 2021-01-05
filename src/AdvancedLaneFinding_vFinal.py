@@ -1071,8 +1071,8 @@ from moviepy.editor import ImageSequenceClip
 from IPython.display import HTML
 
 
-#input_video = '../project_video.mp4'
-input_video = '../challenge_video.mp4'
+input_video = '../project_video.mp4'
+#input_video = '../challenge_video.mp4'
 #input_video = '../harder_challenge_video.mp4'
 
 
@@ -1168,10 +1168,10 @@ for image_frame in myclip.iter_frames():
 
 cv2.destroyAllWindows()  
 
-
+'''
 clip = ImageSequenceClip(images, fps=20)
 clip.write_videofile('../challenge_video_output.mp4', audio=False)
-'''
+
 clip = ImageSequenceClip(debug_images, fps=20)
 clip.write_videofile('../challenge_video_debug_output.mp4', audio=False)
 

@@ -32,6 +32,8 @@ The goals / steps of this project are the following:
 
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
 
+#### The project is contained in the python file `src/AdvancedLaneFinding_vFinal.py`.
+
 ---
 ### Camera Calibration
 
